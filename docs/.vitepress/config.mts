@@ -137,6 +137,7 @@ export default defineConfig({
           items: [
             { text: '介绍', link: '/nestjs/introduction' },
             { text: '快速开始', link: '/nestjs/quick-start' },
+            { text: '常用-package', link: '/nestjs/use-package' },
             { text: '启动配置', link: '/nestjs/start-setup' },
             { text: '接口开发', link: '/nestjs/api-start' },
             { text: '请求处理', link: '/nestjs/api-request' },
@@ -144,6 +145,12 @@ export default defineConfig({
             { text: '链路追踪', link: '/nestjs/api-trace' },
             { text: '生命周期', link: '/nestjs/lifecycle' },
             { text: '架构设计', link: '/nestjs/arch-design' },
+          ]
+        },
+        {
+          text: 'WebSocket',
+          items: [
+            { text: '快速入门', link: '/nestjs/websocket/quick-start' },
           ]
         },
         {

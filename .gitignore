@@ -5,3 +5,7 @@ node_modules
 dist
 .cache
 .project
+.fleet
+/.vitepress
+!/docs/.vitepress
+.vitpress/.cache
