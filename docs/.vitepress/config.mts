@@ -68,24 +68,21 @@ export default defineConfig({
           }
         ]
       },
+      {
+        text: 'Java',
+        items: [
+          {
+            text: 'Java',
+            link: '/java/quick-start'
+          },
+          {
+            text: 'Spring',
+            link: '/java/spring/quick-start'
+          }
+        ]
+      },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-
-//    sidebar: [
-//      {
-//        text: 'Examples',
-//        items: [
-//          { text: 'Markdown Examples', link: '/markdown-examples' },
-//          { text: 'Runtime API Examples', link: '/api-examples' }
-//        ]
-//      },
-//      {
-//        text: 'NodeJS',
-//        items: [
-//          { text: 'Introduction', link: '/nodejs/introduction' }
-//        ]
-//      }
-//    ],
 
     sidebar: {
       '/javascript/': [
